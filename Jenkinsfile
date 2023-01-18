@@ -9,7 +9,7 @@ pipeline {
         }
       }
       steps {
-      	sh 'mvn clean install -X debug.log'
+      	sh 'mvn clean install -X'
       }
     }
   }
